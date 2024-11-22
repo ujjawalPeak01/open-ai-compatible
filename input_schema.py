@@ -5,7 +5,7 @@ INPUT_SCHEMA = {
         'shape': [1],
         'example': ["There is a fine house in the forest"]
     },
-    "max_tokens": {
+    "min_length": {
         'datatype': 'INT16',
         'required': False,
         'shape': [1],
